@@ -13,6 +13,7 @@ ghc --make -threaded site.hs
 ```bash
 ./site watch
 ```
+Navigate to `http://localhost:8000` in your browser
 
 ## Deploy a new version
 ```bash
