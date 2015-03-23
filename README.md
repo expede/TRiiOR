@@ -2,7 +2,7 @@
 A programming blog built with Hakyll
 
 # Quickstart
-## First run
+## Setup
 ```bash
 cabal sandbox init
 cabal insatll --only-dependencies
@@ -19,3 +19,11 @@ Navigate to `http://localhost:8000` in your browser
 ```bash
 ./site build && git subtree push --prefix _site origin gh-pages
 ```
+
+# Contribution
+1. Fork the repo
+2. Write your post
+3. Submit a pull request
+
+# Errata
+- [More info on Hakyll](http://jaspervdj.be/hakyll)
