@@ -1,5 +1,5 @@
 # Tail Recursion is its Own Reward 
-## An FP blog built with Hakyll
+A programming blog built with Hakyll
 
 # Quickstart
 ## First run
