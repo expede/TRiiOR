@@ -1,5 +1,20 @@
-# TRiiOR
-Tail Recursion is its Own Reward — Hakyll Blog
+# Tail Recursion is its Own Reward 
+## An FP blog built with Hakyll
 
-# Deploy a new version
-`./site build && git subtree push --prefix _site origin gh-pages`
+# Quickstart
+## First run
+```bash
+cabal sandbox init
+cabal insatll --only-dependencies
+ghc --make -threaded site.hs
+```
+
+## Run locally
+```bash
+./site watch
+```
+
+## Deploy a new version
+```bash
+./site build && git subtree push --prefix _site origin gh-pages
+```
