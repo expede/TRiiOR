@@ -5,7 +5,7 @@ A programming blog built with Hakyll
 ## Setup
 ```bash
 cabal sandbox init
-cabal insatll --only-dependencies
+cabal install --only-dependencies
 ghc --make -threaded site.hs
 ```
 
